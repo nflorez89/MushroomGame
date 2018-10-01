@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="bar.cpp" />
+    <ClCompile Include="closeCombatMushroom.cpp" />
+    <ClCompile Include="colonizerMushroom.cpp" />
+    <ClCompile Include="debris.cpp" />
+    <ClCompile Include="entity.cpp" />
+    <ClCompile Include="envCharacteristic.cpp" />
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="graphics.cpp" />
+    <ClCompile Include="image.cpp" />
+    <ClCompile Include="input.cpp" />
+    <ClCompile Include="levelRecord.cpp" />
+    <ClCompile Include="messageDialog.cpp" />
+    <ClCompile Include="mushCloseCombatFactory.cpp" />
+    <ClCompile Include="mushColonizerFactory.cpp" />
+    <ClCompile Include="mushParasiticFactory.cpp" />
+    <ClCompile Include="mushRangedFactory.cpp" />
+    <ClCompile Include="mushroom.cpp" />
+    <ClCompile Include="mushroomCloseCombatUnit.cpp" />
+    <ClCompile Include="mushroomColonizerUnit.cpp" />
+    <ClCompile Include="mushroomParasiteUnit.cpp" />
+    <ClCompile Include="mushroomRangedUnit.cpp" />
+    <ClCompile Include="mushroomWar.cpp" />
+    <ClCompile Include="mushStore.cpp" />
+    <ClCompile Include="nematodeBurrowerUnit.cpp" />
+    <ClCompile Include="nematodeCloseCombatUnit.cpp" />
+    <ClCompile Include="nematodeParasiteUnit.cpp" />
+    <ClCompile Include="nematodeRangedUnit.cpp" />
+    <ClCompile Include="nematodeUnit.cpp" />
+    <ClCompile Include="parasiticMushroom.cpp" />
+    <ClCompile Include="pathFinder.cpp" />
+    <ClCompile Include="rangedMushroom.cpp" />
+    <ClCompile Include="textDX.cpp" />
+    <ClCompile Include="textureManager.cpp" />
+    <ClCompile Include="tile.cpp" />
+    <ClCompile Include="toggleButton.cpp" />
+    <ClCompile Include="unit.cpp" />
+    <ClCompile Include="utilities.cpp" />
+    <ClCompile Include="winmain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bar.h" />
+    <ClInclude Include="closeCombatMushroom.h" />
+    <ClInclude Include="colonizerMushroom.h" />
+    <ClInclude Include="constants.h" />
+    <ClInclude Include="debris.h" />
+    <ClInclude Include="entity.h" />
+    <ClInclude Include="envCharacteristic.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="gameError.h" />
+    <ClInclude Include="graphics.h" />
+    <ClInclude Include="image.h" />
+    <ClInclude Include="input.h" />
+    <ClInclude Include="levelRecord.h" />
+    <ClInclude Include="messageDialog.h" />
+    <ClInclude Include="mushCloseCombatFactory.h" />
+    <ClInclude Include="mushColonizerFactory.h" />
+    <ClInclude Include="mushFactory.h" />
+    <ClInclude Include="mushParasiticFactory.h" />
+    <ClInclude Include="mushRangedFactory.h" />
+    <ClInclude Include="mushroom.h" />
+    <ClInclude Include="mushroomCloseCombatUnit.h" />
+    <ClInclude Include="mushroomColonizerUnit.h" />
+    <ClInclude Include="mushroomParasiteUnit.h" />
+    <ClInclude Include="mushroomRangedUnit.h" />
+    <ClInclude Include="mushroomWar.h" />
+    <ClInclude Include="mushStore.h" />
+    <ClInclude Include="nematodeBurrowerUnit.h" />
+    <ClInclude Include="nematodeCloseCombatUnit.h" />
+    <ClInclude Include="nematodeParasiteUnit.h" />
+    <ClInclude Include="nematodeRangedUnit.h" />
+    <ClInclude Include="nematodeUnit.h" />
+    <ClInclude Include="node.h" />
+    <ClInclude Include="parasiticMushroom.h" />
+    <ClInclude Include="pathFinder.h" />
+    <ClInclude Include="rangedMushroom.h" />
+    <ClInclude Include="textDX.h" />
+    <ClInclude Include="textureManager.h" />
+    <ClInclude Include="tile.h" />
+    <ClInclude Include="toggleButton.h" />
+    <ClInclude Include="unit.h" />
+    <ClInclude Include="utilities.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="license.htm" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

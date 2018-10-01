@@ -1,0 +1,15 @@
+gx|gx|go|gx|go|go|gx|gx|go|go|go|gx|gx|gx|go|go|go|gx|gx|gx|
+gx|g5|go|go|go|bx|gx|gx|gx|gx|gx|sx|gx|gx|bx|gx|gx|gx|g3|gl|
+g7|g7|gx|gx|gx|gx|gx|go|go|go|gx|gx|gx|gx|gx|go|go|hx|gx|gx|
+gx|g5|go|go|gx|go|gx|gx|gx|gx|bx|go|gx|gx|gx|gx|go|gx|gx|gx|
+gx|gx|go|gx|gx|go|gx|gx|sx|gx|gx|go|gx|gx|gx|gx|go|gx|gx|gx|
+gx|g7|go|go|gx|gx|gx|go|gx|gx|sx|sx|sx|gx|gx|gx|go|hx|gx|gx|
+g6|g5|gx|gx|gx|go|gx|gx|gx|gx|go|gx|gx|gx|gx|gx|gx|gx|gx|gx|
+gx|g7|go|go|go|go|go|go|gx|go|go|sx|sx|go|gx|gx|go|gx|gx|gx|
+gx|gx|go|gx|gx|gx|hx|gx|gx|gx|gx|gx|gx|go|go|go|go|hx|gx|gx|
+gx|g7|go|go|gx|go|gx|gx|gx|bx|gx|sx|sx|gx|gx|gx|go|gx|gx|gx|
+g5|g7|gx|gx|gx|hx|gx|gx|go|gx|sx|gx|bx|gx|gx|gx|gx|gx|g1|gx|
+gx|g5|go|go|go|gx|go|gx|go|gx|gx|bx|gx|gx|go|go|go|gx|gx|gx|
+gx|gx|go|gx|go|gx|gx|gx|sx|gx|go|go|go|gx|go|hx|go|hx|gx|gc|
+gx|gx|go|gx|gx|gx|go|go|go|gx|gx|gx|go|gx|go|gx|go|gx|gx|gx|
+g6|gx|go|gx|gx|gx|gx|gx|gx|gx|gx|sx|gx|gx|gx|gx|gx|gx|gx|gx|
